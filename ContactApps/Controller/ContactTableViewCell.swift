@@ -25,16 +25,15 @@ class ContactTableViewCell: UITableViewCell {
     static let identifier = "ContactTableViewCell"
 
     static func nib() -> UINib {
-        return UINib(nibName: "ContactTableViewCell",
-                     bundle: nil)
+        return UINib(nibName: "ContactTableViewCell", bundle: nil)
     }
     
     func configureData(with model: Contact) {
         self.fullName.text = model.name.first + " " + model.name.last
         let url = model.picture.large
-            if let data = try? Data(contentsOf: URL(string: url)!) {
-                self.userImage.image = UIImage(data: data)
-            }
+        if let data = try? Data(contentsOf: URL(string: url)!) {
+            self.userImage.image = UIImage(data: data)
         }
+    }
     
 }

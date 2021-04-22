@@ -19,6 +19,7 @@
 		2B7337222631285A006C8421 /* ContactAppsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7337212631285A006C8421 /* ContactAppsUITests.swift */; };
 		2BA746C62631434900CDE5CC /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA746C42631434900CDE5CC /* ContactTableViewCell.swift */; };
 		2BA746C72631434900CDE5CC /* ContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BA746C52631434900CDE5CC /* ContactTableViewCell.xib */; };
+		2BA746D226314ACD00CDE5CC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA746D126314ACD00CDE5CC /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		2B7337232631285A006C8421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BA746C42631434900CDE5CC /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
 		2BA746C52631434900CDE5CC /* ContactTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactTableViewCell.xib; sourceTree = "<group>"; };
+		2BA746D126314ACD00CDE5CC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			children = (
 				2B73370326312857006C8421 /* ViewController.swift */,
 				2BA746C42631434900CDE5CC /* ContactTableViewCell.swift */,
+				2BA746D126314ACD00CDE5CC /* DetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				2B0B0D81263131E100593E9D /* ContactManager.swift in Sources */,
 				2BA746C62631434900CDE5CC /* ContactTableViewCell.swift in Sources */,
 				2B73370226312857006C8421 /* SceneDelegate.swift in Sources */,
+				2BA746D226314ACD00CDE5CC /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
